@@ -10,7 +10,8 @@
 		"watch": "ng build --watch --configuration development",
 		"test": "ng test",
 		"delete:docs": "del docs",
-		"copy:dist": "copyfiles -u 2 dist/pipes-app/**/* ./docs"
+		"copy:dist": "copyfiles -u 2 dist/pipes-app/**/* ./docs",
+		"copy:docs": "copyfiles dist/pipes-app/* ./docs -f"
 	},
 	"private": true,
 	"dependencies": {
